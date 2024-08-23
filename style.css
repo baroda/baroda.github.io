@@ -26,6 +26,10 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.main-content {
+    padding-bottom: 60px; /* Prevent overlap with footer */
+}
+
 h1 {
     color: #f26522;
     text-align: center;
@@ -41,9 +45,10 @@ p, h2 {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
     width: 100%;
     bottom: 0;
+    left: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 768px) {
