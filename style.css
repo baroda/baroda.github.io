@@ -9,7 +9,6 @@ body {
 
 .header {
     background-color: #f26522;
-    color: white;
     padding: 10px 0;
     text-align: center;
 }
@@ -42,7 +41,6 @@ p, h2 {
 
 .footer {
     background-color: #f26522;
-    color: white;
     text-align: center;
     padding: 10px 0;
     width: 100%;
